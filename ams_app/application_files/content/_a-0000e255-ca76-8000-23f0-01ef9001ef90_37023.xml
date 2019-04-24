@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e255-ca76-8000-23f0-01ef9001ef90_37803</versionUuid>
+    <versionUuid>_a-0000e255-ca76-8000-23f0-01ef9001ef90_37929</versionUuid>
     <rule>
         <name>AMS_GetUSerDetails</name>
         <uuid>_a-0000e255-ca76-8000-23f0-01ef9001ef90_37023</uuid>
@@ -24,6 +24,15 @@
   ),
   #"SYSTEM_SYSRULES_cardLayout"(
     contents: {
+      #"SYSTEM_SYSRULES_billboardLayout"(
+        backgroundMedia: #"SYSTEM_SYSRULES_documentImage"(
+          document: #"SYSTEM_SYSRULES_EXAMPLE_BILLBOARD_IMAGE"()
+        ),
+        backgroundColor: "#f0f0f0",
+        overlayStyle: "DARK",
+        overlayContents: {},
+        marginBelow: "STANDARD"
+      ),
       #"SYSTEM_SYSRULES_cardLayout"(
         contents: {
           #"SYSTEM_SYSRULES_barcodeField"(
@@ -33,6 +42,15 @@
             saveInto: {},
             refreshAfter: "UNFOCUS",
             validations: {}
+          ),
+          #"SYSTEM_SYSRULES_billboardLayout"(
+            backgroundMedia: #"SYSTEM_SYSRULES_documentImage"(
+              document: #"SYSTEM_SYSRULES_EXAMPLE_BILLBOARD_IMAGE"()
+            ),
+            backgroundColor: "#f0f0f0",
+            overlayStyle: "DARK",
+            overlayContents: {},
+            marginBelow: "STANDARD"
           ),
           #"SYSTEM_SYSRULES_videoField"(
             label: "Video",
@@ -104,5 +122,6 @@
         <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_37323"/>
         <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_37680"/>
         <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_37803"/>
+        <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_37929"/>
     </history>
 </contentHaul>
